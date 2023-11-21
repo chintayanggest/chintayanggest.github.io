@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); */
+/* kalo font yg diinginkan tidak ada di vscode bisa import dari google font */
+body{
+    font-family:'Poppins',sans-serif;
+}
+.navbar {
+    background-color: #131313 !important;
+}
+.navbar .navbar-brand{
+    font-weight: 700;
+    color: aqua;
+}
+.navbar .nav-link{
+    font-weight: 500;
+    color: white;
+    text-transform: uppercase;
+}
+
+/* hero style */
+.hero .card-title{
+    margin-top: 150px;
+    font-size: 250px ;
+    font-weight: 500;
+    color: #d7cfcf;
+}
+/* menu style */
+.menu{
+    background-image: url('pictures/hero.jpg');
+    background-size: cover;
+}
+.menu .section-title{
+    font-weight: 700;
+    color: #f7f1f1;
+}
+.menu .section-paragraf{
+    font-weight: 700;
+    color: #d2cccc;
+}
+.menu .card{
+    background-color: #131313;
+    color: #fff;
+}
+.menu .card img{
+    border: 2px solid #fff;
+    width: 100px;
+    height: 300px;
+}
+.menu .card .card-title {
+    margin-top: 20px;
+    font-weight: 500;
+}
+.menu .card .btn{
+    font-weight: 700;
+}
+/* Testimoni Styles */
+.testimoni {
+    background-image: url('pictures/power.jpg');
+    background-size: cover;
+    height: 450px;
+}
+
+.testimoni img{
+    margin-top: 50px;
+    width: 130px;
+}
+
+.testimoni .blockquote {
+    font-weight: 800;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #131313;
+}
